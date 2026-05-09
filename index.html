@@ -144,8 +144,8 @@ function renderSetup() {
   const card = el('div', { margin:'0 16px', padding:'16px', background:'#111', borderRadius:'8px', border:'1px solid #1e1e1e' });
 
   [
-    { label:'FLÈCHES / VOLÉE', key:'arrows', opts:[1,2,3,6] },
-    { label:'VOLÉES',           key:'ends',   opts:[5,10,12,20] },
+    { label:'FLÈCHES / VOLÉE', key:'arrows', opts:[1,2,3,6,8,10] },
+    { label:'VOLÉES',           key:'ends',   opts:[1,3,6,10,12] },
     { label:'DISTANCE (M)',     key:'dist',   opts:[10,18,25,50,70] },
   ].forEach(({ label, key, opts }) => {
     const wrap = el('div', { marginBottom:'16px' });
